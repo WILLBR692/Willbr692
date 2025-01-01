@@ -1,6 +1,6 @@
 // Supabase Configuração
-const SUPABASE_URL = 'https://your-supabase-url.supabase.co';
-const SUPABASE_KEY = 'your-anon-key';
+const SUPABASE_URL = 'https://lrkdrpbgvyflhtcvpbqk.supabase.co';
+const SUPABASE_KEY = 'yeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imxya2RycGJndnlmbGh0Y3ZwYnFrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzU1NTg2MzMsImV4cCI6MjA1MTEzNDYzM30.EAXXps-1ks1SGTihlPe7SNVPIMsck1OvnDFCRG3YQ4E';
 const supabase = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
 // Função para carregar o dashboard
