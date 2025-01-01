@@ -1,38 +1,59 @@
+/* Estilo básico e minimalista */
 body {
   font-family: Arial, sans-serif;
+  line-height: 1.6;
   margin: 0;
   padding: 0;
-  background: #f9f9f9;
+  background: #f4f4f9;
   color: #333;
 }
 
 header {
   background: #4CAF50;
-  color: white;
-  padding: 10px 20px;
-}
-
-header h1 {
-  margin: 0;
-}
-
-nav {
-  margin-top: 10px;
-}
-
-nav button {
-  margin: 0 5px;
-  padding: 10px 15px;
-  background: white;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-nav button:hover {
-  background: #ddd;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
 }
 
 main {
-  padding: 20px;
+  padding: 1rem;
+}
+
+h1, h2 {
+  margin-bottom: 1rem;
+}
+
+form label {
+  display: block;
+  margin-top: 0.5rem;
+}
+
+form input, form textarea, form select, form button {
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+}
+
+form button {
+  background: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #45a049;
+}
+
+#listagem ul {
+  list-style: none;
+  padding: 0;
+}
+
+#listagem li {
+  background: #fff;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
 }
