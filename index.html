@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerenciamento de Manutenções</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Gerenciamento de Manutenções</h1>
+  </header>
+
+  <main>
+    <section id="dashboard">
+      <h2>Dashboard</h2>
+      <div id="stats">
+        <p><strong>Total de Ocorrências:</strong> <span id="total-ocorrencias">0</span></p>
+        <p><strong>Total de Manutenções:</strong> <span id="total-manutencoes">0</span></p>
+      </div>
+    </section>
+
+    <section id="forms">
+      <h2>Adicionar Ocorrência</h2>
+      <form id="form-ocorrencia">
+        <label for="titulo">Título:</label>
+        <input type="text" id="titulo" required>
+        
+        <label for="descricao">Descrição:</label>
+        <textarea id="descricao" required></textarea>
+        
+        <label for="tipo">Tipo:</label>
+        <select id="tipo" required>
+          <option value="preventiva">Preventiva</option>
+          <option value="corretiva">Corretiva</option>
+        </select>
+        
+        <button type="submit">Adicionar</button>
+      </form>
+    </section>
+
+    <section id="listagem">
+      <h2>Ocorrências</h2>
+      <ul id="lista-ocorrencias"></ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
